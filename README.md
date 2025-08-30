@@ -165,10 +165,10 @@ If you need any help, you can contact the admin.
 Please do not disturb the admin unless you have a special need. Thank you! 
 
 <p align="center">
-  <a href="https://wa.me/+8801882333052?text=Assalamualaikum%20Admin%20SHAHADAT%20SAHU%20Need%20Help%20Please%20Brother%20🫶">
+  <a href="https://wa.me/+8801931411945?text=Assalamualaikum%20Admin%20ZISAN%20AHMED%20Need%20Help%20Please%20Brother%20🫶">
     <img alt="WhatsApp" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white">
   </a>
-  <a href="https://m.me/100001039692046">
+  <a href="https://m.me/100079776818351">
     <img alt="Messenger" src="https://img.shields.io/badge/Messenger-00B2FF?style=for-the-badge&logo=messenger&logoColor=white">
   </a>
 </p>
@@ -177,15 +177,15 @@ Please do not disturb the admin unless you have a special need. Thank you!
 
 ## ✨🌟 Special Thanks 🌟✨
 
-- 🚀 **Cyber Bot Team**  
-- 🧙‍♂️ **Ullash (Owner Cyber Bot Team)**
-- 🛡️ **Shahadat Sa hu (Admin Cyber Bot Team)**
+- 🚀 **SARPX Cyber Bot Team**  
+- 🧙‍♂️ **SIRAJ (Owner SARPX Cyber Bot Team & 𝗦𝗣𝗔𝗠𝗠𝗜𝗡𝗚🌐𝗔𝗡𝗗 𝗔𝗗𝗩𝗔𝗡𝗖𝗘𝗗🖥️𝗥𝗜𝗦𝗞 𝗣𝗥𝗢𝗧𝗘𝗖𝗧𝗜𝗢𝗡 🖥️𝗫𝗣𝗘𝗥𝗧𝗦)**
+- 🛡️ **ZISAN AHMED (Admin 𝗦𝗣𝗔𝗠𝗠𝗜𝗡𝗚🌐𝗔𝗡𝗗 𝗔𝗗𝗩𝗔𝗡𝗖𝗘𝗗🖥️𝗥𝗜𝗦𝗞 𝗣𝗥𝗢𝗧𝗘𝗖𝗧𝗜𝗢𝗡 🖥️𝗫𝗣𝗘𝗥𝗧𝗦)**
 - 🎓 **ZISAN AHMED (OWNER THIS FORK)** 
 
 ---
 
 💖 **Thank You For Choosing 𝗭𝗜𝗦𝗔𝗡 𝗖𝗵𝗮𝘁 𝗕𝗼𝘁!**  
-🗓️ *Release Date:* `11/08/2025 at 02:00`  
+🗓️ *Release Date:* `30/08/2025 at 02:00`  
 ⭐ **Please don't forget to give a star after forking! It really helps!**
 
 ---
@@ -196,8 +196,8 @@ Please do not disturb the admin unless you have a special need. Thank you!
 
 <p align="center">
   <a href="https://github.com/shahadat-sahu"><img src="https://img.icons8.com/fluency/48/000000/github.png" alt="GitHub"></a>
-  <a href="https://wa.me/+8801882333052"><img src="https://img.icons8.com/color/48/000000/whatsapp.png" alt="WhatsApp"></a>
-  <a href="https://facebook.com/100001039692046"><img src="https://img.icons8.com/fluency/48/000000/facebook.png" alt="Facebook"></a>
+  <a href="https://wa.me/+8801931411945"><img src="https://img.icons8.com/color/48/000000/whatsapp.png" alt="WhatsApp"></a>
+  <a href="https://facebook.com/100079776818351"><img src="https://img.icons8.com/fluency/48/000000/facebook.png" alt="Facebook"></a>
   <a href="https://t.me/+8EtzLXVG-REwYTM1"><img src="https://img.icons8.com/color/48/000000/telegram-app.png" alt="Telegram"></a>
   <a href="https://youtube.com/@cyberbotcommunity"><img src="https://img.icons8.com/color/48/000000/youtube-play.png" alt="YouTube"></a>
 </p>
