@@ -9,7 +9,7 @@
 Assalamualaikum Everyone!  
 **Welcome to My 𝗭𝗜𝗦𝗔𝗡 CHAT BOT Fork!**
 
-![Box-shaped Image](https://i.imgur.com/wbFEdef.mp4)
+![Box-shaped Image]("https://i.imgur.com/wbFEdef.mp4")
 
 <p align="center" style="animation: glow 2s infinite alternate; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
   <span style="font-size: 24px; font-weight: bold;">ZISAN CHAT BOT</span><br>
@@ -179,12 +179,12 @@ Please do not disturb the admin unless you have a special need. Thank you!
 
 - 🚀 **Cyber Bot Team**  
 - 🧙‍♂️ **Ullash (Owner Cyber Bot Team)**
-- 🛡️ **Sujon (Admin Cyber Bot Team)**
-- 🎓 **Grandpa EJ (Owner Grandpa Academy)** 
+- 🛡️ **Shahadat Sa hu (Admin Cyber Bot Team)**
+- 🎓 **ZISAN AHMED (OWNER THIS FORK)** 
 
 ---
 
-💖 **Thank You For Choosing 𝗦𝗵𝗮𝗵𝗮𝗱𝗮𝘁 𝗖𝗵𝗮𝘁 𝗕𝗼𝘁!**  
+💖 **Thank You For Choosing 𝗭𝗜𝗦𝗔𝗡 𝗖𝗵𝗮𝘁 𝗕𝗼𝘁!**  
 🗓️ *Release Date:* `11/08/2025 at 02:00`  
 ⭐ **Please don't forget to give a star after forking! It really helps!**
 
