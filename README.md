@@ -195,7 +195,7 @@ Please do not disturb the admin unless you have a special need. Thank you!
 </p>
 
 <p align="center">
-  <a href="https://github.com/shahadat-sahu"><img src="https://img.icons8.com/fluency/48/000000/github.png" alt="GitHub"></a>
+  <a href=""><img src="https://img.icons8.com/fluency/48/000000/github.png" alt="GitHub"></a>
   <a href="https://wa.me/+8801931411945"><img src="https://img.icons8.com/color/48/000000/whatsapp.png" alt="WhatsApp"></a>
   <a href="https://facebook.com/100079776818351"><img src="https://img.icons8.com/fluency/48/000000/facebook.png" alt="Facebook"></a>
   <a href="https://t.me/+8EtzLXVG-REwYTM1"><img src="https://img.icons8.com/color/48/000000/telegram-app.png" alt="Telegram"></a>
