@@ -15,7 +15,7 @@ module.exports.config = {
 
 module.exports.run = async function({ api, event, args }) {
 	if (args.length === 0) 
-		return api.sendMessage("📁 অনুগ্রহ করে ফাইলের নাম দিন।\nব্যবহার: pastebin <filename>", event.threadID, event.messageID);
+		return api.sendMessage("📁 অনুগ্রহ করে ফাইলের নাম দিন।\nব্যবহার: give <filename>", event.threadID, event.messageID);
 
 	const fileName = args[0];
 	const commandsPath = path.join(__dirname, "..", "commands");
@@ -37,7 +37,7 @@ module.exports.run = async function({ api, event, args }) {
 			return api.sendMessage("❗ ফাইলটি পড়তে সমস্যা হয়েছে।", event.threadID, event.messageID);
 		}
 		try {
-			api.sendMessage("📤 ফাইল আপলোড হচ্ছে PasteBin-এ, অনুগ্রহ করে অপেক্ষা করুন...", event.threadID, async (error, info) => {
+			api.sendMessage("📤 ফাইল আপলোড হচ্ছে Link-এ, অনুগ্রহ করে অপেক্ষা করুন...", event.threadID, async (error, info) => {
 				if (error) return console.error(error);
 
 				const pastebinAPI = "https://pastebin-api.vercel.app";
@@ -49,7 +49,7 @@ module.exports.run = async function({ api, event, args }) {
 
 				if (response.data && response.data.id) {
 					const link = `${pastebinAPI}/raw/${response.data.id}`;
-					return api.sendMessage(`📄 ফাইল: ${path.basename(fileToRead)}\n✅ ফাইল সফলভাবে লিংক তেরি হয়েছে:\n🔗 ${link}`, event.threadID);
+					return api.sendMessage(`📄 ফাইল: ${path.basename(fileToRead)}\n✅ বস 💠𝗭𝗜𝗦𝗔𝗡-𝗔𝗛𝗠𝗘𝗗💠 ফাইল সফলভাবে লিংক আকারে আপলোড হয়েছে। এই নিন লিংক:\n🔗 ${link}`, event.threadID);
 				} else {
 					console.error("⚠️ Unexpected API response:", response.data);
 					return api.sendMessage("⚠️ আপলোড ব্যর্থ হয়েছে। PasteBin সার্ভার থেকে সঠিক আইডি পাওয়া যায়নি।", event.threadID);
