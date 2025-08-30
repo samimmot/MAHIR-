@@ -96,7 +96,7 @@ module.exports.run = async function ({ api, event, args }) {
 
     } catch (error) {
         console.error("Gemini API Error:", error.response ? error.response.data.error.message : error.message);
-        api.sendMessage("উফ! 😔 কি যে বাল বলো আমার বুঝতে একটু সমস্যা হচ্ছে... সম্ভবত এপিআই কী-তে কোনো সমস্যা হয়েছে।", threadID, messageID);
+        api.sendMessage("উফ! 😔 কি যে বাল বলো আমার বুঝতে সমস্যা হচ্ছে... সম্ভবত এপিআই কী-তে কোনো সমস্যা হয়েছে।", threadID, messageID);
         api.setMessageReaction("❌", messageID, () => {}, true);
     }
 };
@@ -111,3 +111,4 @@ module.exports.handleEvent = async function ({ api, event }) {
     const args = body.split(" ");
     module.exports.run({ api, event, args });
 };
+        
