@@ -1,48 +1,58 @@
-const request = require("request");
-const fs = require("fs-extra");
-
 module.exports.config = {
- name: "owner2",
- version: "1.0.1",
- hasPermssion: 0,
- credits: "Shahadat SA HU",
- description: "Display bot owner's information",
- commandCategory: "Info",
- usages: "",
- cooldowns: 5,
- dependencies: {
- request: "",
- "fs-extra": "",
- axios: ""
- }
+    name: "owner",
+    version: "1.2.0",
+    hasPermssion: 0,
+    credits: "Shaon Ahmed",
+    description: "Fancy owner info with Imgur banner",
+    commandCategory: "For users",
+    usages: "owner",
+    cooldowns: 5,
 };
 
-module.exports.run = async function ({ api, event }) {
- const imageUrl = "https://graph.facebook.com/61575698041722/picture?height=720&width=720&access_token=6628568379|c1e620fa708a1d5696fb991c1bde5662";
- const path = __dirname + "/cache/owner.png";
+module.exports.run = async function({ api, event, Users }) {
+    const fs = global.nodemodule["fs-extra"];
+    const request = global.nodemodule["request"];
+    const moment = require("moment-timezone");
 
- request(imageUrl)
- .pipe(fs.createWriteStream(path))
- .on("close", () => {
- api.sendMessage({
- body:
-`🌟 𝗢𝗪𝗡𝗘𝗥 𝗜𝗡𝗙𝗢 🌟
+    const { threadID, senderID } = event;
+    const ownerID = "100079776818351"; // তোমার Facebook ID
 
-👑 𝗡𝗮𝗺𝗲: Shahadat Islam😘
-😻 𝗔𝗱𝗱𝗿𝗲𝘀𝘀: মেয়েদের মনে🙈
-💼 𝗣𝗿𝗼𝗳𝗲𝘀𝘀𝗶𝗼𝗻: মেয়েদের মন জয় করা😍
+    if (senderID != ownerID) {
+        return api.sendMessage("❌ শুধুমাত্র Owner এর জন্য।", threadID);
+    }
 
-🌐 𝗙𝗮𝗰𝗲𝗯𝗼𝗼𝗸: আইডি বেইচ্চা খাইয়া লাইছি😁
-💬 𝗠𝗲𝘀𝘀𝗲𝗻𝗴𝗲𝗿: দিলে Future বউ ধইরা মারব😌
-📺 𝗬𝗼𝘂𝗧𝘂𝗯𝗲: কবে YouTubal ছিলাম 😺
-📸 𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺: গরিব বলে ফেসবুক চালাই শুধু 🥺
-📱 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽: দিলে আমার আম্মু বকা দিবা 🤣
-🎵 𝗧𝗶𝗸𝗧𝗼𝗸: সরি আমি প্রতিবন্ধী না🥱
-👻 𝗦𝗻𝗮𝗽𝗰𝗵𝗮𝘁: তোদের মতো কালা নাকি ফিল্টার লাগামু🤭
+    const name = await Users.getNameUser(senderID);
+    const uptime = process.uptime();
+    const hours = Math.floor(uptime / (60 * 60));
+    const minutes = Math.floor((uptime % (60 * 60)) / 60);
+    const seconds = Math.floor(uptime % 60);
 
-🤖 𝗕𝗢𝗧 𝗕𝗬: ─꯭─⃝‌‌𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭
-`,
- attachment: fs.createReadStream(path)
- }, event.threadID, () => fs.unlinkSync(path));
- });
-};
+    // Only Imgur banners
+    const banners = [
+        "https://i.imgur.com/9oI0js6.png",
+        ""
+    ];
+
+    const bannerLink = banners[Math.floor(Math.random() * banners.length)];
+    const path = __dirname + "/cache/owner_banner.jpg";
+
+    // Download image from Imgur
+    return request(encodeURI(bannerLink))
+        .pipe(fs.createWriteStream(path))
+        .on("close", () => {
+            const message = `
+🌸✨ 𝗢𝗪𝗡𝗘𝗥 𝗜𝗡𝗙𝗢 ✨🌸
+
+👤 Name      : ${name}
+🆔 Facebook ID: ${ownerID}
+📱 WhatsApp   : 01931411945
+💻 Bot        : 🅰🅸 🅰🆂🅸🆂🆃🅰🅽🆃⚠️
+
+⏰ Active Time: ${hours}h ${minutes}m ${seconds}s
+
+🌟 Thanks for using the bot!
+`;
+
+            api.sendMessage({ body: message, attachment: fs.createReadStream(path) }, threadID, () => fs.unlinkSync(path));
+        });
+}; 
