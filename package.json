@@ -1,7 +1,7 @@
 {
-"name": "SHAHADAT CHAT BOT",
+"name": "Zisan CHAT BOT",
 "version": "10.1.1",
-"description": "Made By SHAHADAT SAHU",
+"description": "Made By Zisan Ahmed",
 "main": "Main.js",
 "engines": {
 "node": "20.x",
@@ -14,25 +14,25 @@
 },
 "repository": {
 "type": "git",
-"url": "https://github.com/shahadat-sahu/SHAHADAT-CHAT-BOT.git"
+"url": "https://github.com/Zisanmoni/ZISAN-MONI-.git"
 },
 "keywords": [
 "bot",
 "facebook",
-"shahadatproject",
+"zisanproject",
 "messenger",
 "javasvript",
-"shadat",
-"ullash",
-"cybersahu ",
-"shahadat chat bot"
+"zisan",
+"cyberzisan",
+"cyberbot",
+"zisan chat bot"
 ],
-"author": "𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭 𝐈𝐬𝐥𝐚𝐦",
+"author": "𝗭𝗜𝗦𝗔𝗡 𝗔𝗛𝗠𝗘𝗗",
 "license": "MIT",
 "bugs": {
-"url": "https://github.com/shahadat-sahu/SHAHADAT-CHAT-BOT/issues"
+"url": "https://github.com/Zisanmoni/ZISAN-MONI-/issues"
 },
-"homepage": "https://github.com/shahadat-sahu/SHAHADAT-CHAT-BOT/issues",
+"homepage": "https://github.com/Zisanmoni/ZISAN-MONI-/issues",
 "dependencies": {
 "@distube/ytdl-core": "^4.13.2",
 "@miraipr0ject/assets": "^1.0.9",
