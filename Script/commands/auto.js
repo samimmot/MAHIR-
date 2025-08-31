@@ -1,6 +1,6 @@
 module.exports = {
  config:{
- name: "autodl",
+ name: "auto",
  version: "0.0.2",
  hasPermssion: 0,
  credits: "SHAON",
@@ -37,4 +37,4 @@ const data = await alldown(content);
  }, event.threadID, event.messageID);
  }
 }
-}
+  }
