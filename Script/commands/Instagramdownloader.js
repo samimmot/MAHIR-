@@ -2,7 +2,7 @@ module.exports.config = {
  name: "insta",
  version: "2.0.0",
  permission: 0,
- credits: "Shaon Ahmed",
+ credits: "Mahir Ahmed",
  description: "Download video from facebook",
  prefix: true,
  category: "admin",
