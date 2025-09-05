@@ -53,7 +53,7 @@ module.exports.onLoad = ({ api }) => {
         }
 
         const rule = new schedule.RecurrenceRule();
-        rule.tz = 'Basanti/Kalkata';
+        rule.tz = 'india/Kalkata';
         rule.hour = hour24;
         rule.minute = parseInt(minute, 10);
 
