@@ -18,7 +18,7 @@ module.exports.languages = {
  "moduleInfo": `
 
 
-╭━━━━━━━━━━━━━━━━╮\n┃ ✨ 𝐂𝐎𝐌𝐌𝐀𝐍𝐃 𝐃𝐄𝐓𝐀𝐈𝐋𝐒 ✨\n┣━━━━━━━━━━━┫\n┃ 🔖 Name: %1\n┃ 📄 Page: %2/%3\n┃ 🧮 Total: %4\n┣━━━━━━━━━━━━━━━━┫\n%5\n┣━━━━━━━━━━━━━━━━┫\n┃ ⚙ Prefix: %6\n┃ 🤖 Bot Name: ─꯭─⃝‌‌𝗭𝗜𝗦𝗔𝗡 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭\n┃ 👑 Owner: 𝗭𝗜𝗦𝗔𝗡 𝗔𝗛𝗠𝗘𝗗\n╰━━━━━━━━━━━━━━━━╯
+╭━━━━━━━━━━━━━━━━╮\n┃ ✨ 𝐂𝐎𝐌𝐌𝐀𝐍𝐃 𝐃𝐄𝐓𝐀𝐈𝐋𝐒 ✨\n┣━━━━━━━━━━━┫\n┃ 🔖 Name: %1\n┃ 📄 Page: %2/%3\n┃ 🧮 Total: %4\n┣━━━━━━━━━━━━━━━━┫\n%5\n┣━━━━━━━━━━━━━━━━┫\n┃ ⚙ Prefix: %6\n┃ 🤖 Bot Name: ─꯭─⃝‌‌𝐌𝐀𝐇𝐈𝐑 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭\n┃ 👑 Owner: 𝐌𝐀𝐇𝐈𝐑 𝗔𝗛𝗠𝗘𝗗\n╰━━━━━━━━━━━━━━━━╯
 
 
 
@@ -88,7 +88,7 @@ module.exports.run = function ({ api, event, args, getText }) {
  const text = `
 
 
-╭━━━━━━━━━━━━━━━━╮\n┃ 📜 𝐂𝐎𝐌𝐌𝐀𝐍𝐃 𝐋𝐈𝐒𝐓 📜\n┣━━━━━━━━━━━━━━━┫\n┃ 📄 Page: ${page}/${totalPages}\n┃ 🧮 Total: ${arrayInfo.length}\n┣━━━━━━━━━━━━━━━━┫\n${msg}┣━━━━━━━━━━━━━━━━┫\n┃ ⚙ Prefix: ${prefix}\n┃ 🤖 Bot Name: ─꯭─⃝‌‌𝗭𝗜𝗦𝗔𝗡 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭\n┃ 👑 Owner Name: 𝗭𝗜𝗦𝗔𝗡 𝗔𝗛𝗠𝗘𝗗\n╰━━━━━━━━━━━━━━━━╯
+╭━━━━━━━━━━━━━━━━╮\n┃ 📜 𝐂𝐎𝐌𝐌𝐀𝐍𝐃 𝐋𝐈𝐒𝐓 📜\n┣━━━━━━━━━━━━━━━┫\n┃ 📄 Page: ${page}/${totalPages}\n┃ 🧮 Total: ${arrayInfo.length}\n┣━━━━━━━━━━━━━━━━┫\n${msg}┣━━━━━━━━━━━━━━━━┫\n┃ ⚙ Prefix: ${prefix}\n┃ 🤖 Bot Name: ─꯭─⃝‌‌𝐌𝐀𝐇𝐈𝐑 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭\n┃ 👑 Owner Name: 𝐌𝐀𝐇𝐈𝐑 𝗔𝗛𝗠𝗘𝗗\n╰━━━━━━━━━━━━━━━━╯
 
 `;
 
