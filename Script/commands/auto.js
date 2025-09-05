@@ -59,7 +59,7 @@ module.exports.handleEvent = async function ({ api, event }) {
             await api.sendMessage({
                 body: ` ╔═══  IMAGE ═══╗
                        📷 Downloaded from Imgur! 🌟
-                         ╚═𝗭𝗜𝗦𝗔𝗡-𝗔𝗛𝗠𝗘𝗗═╝`,
+                         ╚═𝐌𝐀𝐇𝐈𝐑-𝗔𝗛𝗠𝗘𝗗═╝`,
                 attachment: fs.createReadStream(path)
             }, event.threadID, () => {
                 if (fs.existsSync(path)) {
@@ -82,7 +82,7 @@ module.exports.handleEvent = async function ({ api, event }) {
                 `  ╔═══🚫𝗣𝗿𝗼𝗰𝗲𝘀𝘀𝗶𝗻𝗴 𝗙𝗮𝗶𝗹𝗲𝗱🚫═══╗
     ⚠ Failed to fetch media data! 😔
  🔄 Please check the URL and try again.
-     ╚═𝗭𝗜𝗦𝗔𝗡-𝗔𝗛𝗠𝗘𝗗═╝`,
+     ╚═𝗭𝗜𝗦𝗔𝗡-𝗔𝗛𝐌𝐀𝐇𝐈𝐑═╝`,
                 event.threadID, event.messageID
             );
         }
