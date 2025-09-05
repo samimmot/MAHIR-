@@ -2,7 +2,7 @@ module.exports.config = {
  name: "ban",
  version: "1.0.0",
  hasPermssion: 2,
- credits: "𝗦𝗛𝗔𝗢𝗡 𝗔𝗛𝗠𝗘𝗗",
+ credits: "𝐌𝐀𝐇𝐈𝐑 𝗔𝗛𝗠𝗘𝗗",
  description: "restriction",
  commandCategory: "group",
  usages: `ban user\n\nHow to use?\n${global.config.PREFIX}ban <UID @tag>\n\nExample:\n${global.config.PREFIX}ban (uid)\n${global.config.PREFIX}ban @name\n`,
