@@ -17,7 +17,7 @@ module.exports.run = async function({ api, args, Users, event}) {
  var mention = Object.keys(event.mentions)[0];
     
  let name =  event.mentions[mention];
-    var arraytag = [];
+    var arraytag = [fyt];
         arraytag.push({id: mention});
     var a = function (a) { api.sendMessage(a, event.threadID); }
 a("73R! 83H4N K4 9HUD4 M4RO9 ! G4NDU K4 BACHA 😝😝😝❤️😂😂TERI AMA KI KALI GAND MAROU 😂😂 CONDOMS LGA KY 😂😂😂❤️");
